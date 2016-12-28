@@ -1,36 +1,36 @@
 body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form{margin: 0; padding: 0;}
-body{font:14px/1.5 "ËÎÌå";}
+body{font:14px/1.5 "å®‹ä½“";}
 img{border:none;}
 ul,ol{list-style:none;}
 input,select,textarea{outline:none;border:none;background:none;}
 textarea{resize:none;}
 a{text-decoration:none;}
 
-/*Çå¸¡¶¯*/
+/*æ¸…æµ®åŠ¨*/
 .clearfix:after{content:"";*display:block;*clear:both;}
 .clearfix{zoom:1;}
 
 
-Ñ¡Ôñ
+é€‰æ‹©
 ::selection {background-color:#669900; color:#ffffff; text-shadow:none;}
 ::-moz-selection {background-color:#669900; color:#ffffff;text-shadow:none;}
 
 
-È¥µôaµÄÏÂ»®Ïß
+å»æ‰açš„ä¸‹åˆ’çº¿
 a {blr:expression(this.onFocus=this.blur())} /*if IE*/
-a {outline:none;}/*if »ğºüµÈÏÖ´úä¯ÀÀÆ÷ä¯ÀÀÆ÷*/ 
+a {outline:none;}/*if ç«ç‹ç­‰ç°ä»£æµè§ˆå™¨æµè§ˆå™¨*/ 
 
-È¥µôÊÖ»ú¶Ëaµã»÷µÄ±³¾°
+å»æ‰æ‰‹æœºç«¯aç‚¹å‡»çš„èƒŒæ™¯
 a{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 
 
-Ê¡ÂÔºÅ
+çœç•¥å·
 white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 
-Ó¢ÎÄ×Ô¶¯»»ĞĞ
+è‹±æ–‡è‡ªåŠ¨æ¢è¡Œ
 word-break: break-all;
 
-Ç¿ÖÆ²»»»ĞĞ
+å¼ºåˆ¶ä¸æ¢è¡Œ
 white-space:nowrap;
 
 
@@ -38,7 +38,7 @@ contenteditable="true"
 
 
 -------------------------------------------------
-clearfixÍêÕû°æ
+clearfixå®Œæ•´ç‰ˆ
 
 .clearfix:before,.clearfix:after { content:""; display:table;}
 .clearfix:after{clear:both;}
